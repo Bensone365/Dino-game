@@ -1,0 +1,35 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+}
+
+#gameArea {
+    width: 600px;
+    height: 200px;
+    background-color: #e5e5e5;
+    position: relative;
+    overflow: hidden;
+    border: 2px solid #000;
+}
+
+#dino {
+    width: 40px;
+    height: 40px;
+    background-color: green;
+    position: absolute;
+    bottom: 0;
+}
+
+#obstacle {
+    width: 30px;
+    height: 40px;
+    background-color: red;
+    position: absolute;
+    bottom: 0;
+    right: -30px;
+}
